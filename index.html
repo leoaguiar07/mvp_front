@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <title>Mercado livre de energia</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700'
+        rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <!--grey-->
+    <div class="section-grey sponsors-padding">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="medium-title">Como o Mercado Livre de Energia pode te ajudar a reduzir custos?</h2>
+                <p>A partir de janeiro de 2024, todos os consumidores de média e alta tensão poderão
+                    migrar para o Mercado Livre de Energia sem a exigência de um consumo mínimo.
+                    Nesse sentido, mais de 175 mil empresas poderão usufruir dos benefícios deste ambiente de
+                    contratação.<br>Qualquer tipo de negócio, como padaria ou restaurante, pode ser beneficiado.</p>
+            </div>
+        </div>
+    </div>
+    <!--fim grey-->
+
+    <!--simular-->
+    <section class="section-blue no-padding" id="simular">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 no-padding">
+                    <img src="images\img01.fw.png" class="width-100" alt="register">
+                </div>
+                <div class="col-md-6 register-inner">
+                    <h3 class="medium-text white">Simule sua economia ...</h3>
+                    <p class="white">Preencha as informações abaixo</p>
+
+                    <!--begin form -->
+                    <form id="register-form" class="register" method="post">
+                        <div class="col-md-6 no-padding-left">
+                            <input class="register-input white-input" required="" id="newNome" placeholder="Nome*"
+                                type="text">
+                            <input class="register-input white-input" required="" id="newGasto" placeholder="R$"
+                                type="text">
+                        </div>
+
+                        <div class="col-md-6 no-padding-left">
+                            <input class="register-input white-input" required="" maxlength="15"
+                                onkeyup="handlePhone(event)" id="newCelular" placeholder="Celular*">
+                            <select class="register-input white-input" required="" id="regioes-select">
+                            </select>
+                        </div>
+
+                        <div class="col-md-12 no-padding-left">
+                            <select class="register-input white-input" required="" id="operadora-select">
+                            </select>
+                        </div>
+
+                        <input value="Simular" class="register-submit text-center" onclick="newItem()">
+
+
+                    </form>
+                    <!--fim form -->
+
+                    <div id="resultado" class="col">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--fim simular-->
+
+    <!-- section-white-->
+    <div class="section-white small-padding-bottom">
+
+        <div class="container">
+
+            <div class="row margin-bottom-20">
+
+                <div class="col-md-12 text-center">
+                    <h2 class="section-title">Simulações Registradas</h2>
+                </div>
+
+            </div>
+
+            <!-- items-->
+            <section class="items">
+                <table id="myTable" class="table table-striped table-hover">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Celular</th>
+                        <th>Valor Gasto</th>
+                        <th>Valor Simulado</th>
+                        <th>Percentual(%)</th>
+                        <th>Operadora</th>
+                        <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px">
+                        </th>
+                    </tr>
+                </table>
+                <!-- fim items-->
+            </section>
+        </div>
+
+    </div>
+    <!--fim white-->
+
+
+    <!--JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+
+</body>
+
+</html>
