@@ -1,10 +1,15 @@
 # Mercado Livre de Energia 
 
-A partir de janeiro de 2024, todos os consumidores de média e alta tensão poderão migrar para o Mercado Livre de Energia sem a exigência de um consumo mínimo.<br> Com isso a página permite que os usuários possam simular a sua redução de gasto com sua conta de energia elétrica, atráves de um simulador. Informando Nome, Celular, Região e Operadora de energia atual. Tendo como resultado o gasto simulado, percentual de economia e valor da economia.<br>
-Pesquisando inúmeros sites, verifiquei que não era possível ter uma noção da redução de gasto, todos exibiam um formulário onde o usuário deveria informar seus dados pessoais e de sua conta de energia para um posterior contato.
+A partir de janeiro de 2024, qualquer tipo de negócio, como padaria ou restaurante, poderá ser beneficiado com o mercado livre de energia.
 
-* Valores utilizados para cálculo de economia são aproximados e foram obtidos através de pesquisas na internet, os mesmos podem ser alterados. 
+Os preços de aquisição de energia são menores no mercado livre. 
 
+Pesquisando inúmeros sites, verifiquei que não era possível ter uma noção da redução de gasto, 
+todos exibiam um formulário solicitando informações do usuário.<br>
+
+A página desenvolvida permite que os usuários possam simular a sua redução de gasto, atráves de um simulador. Tendo como resultado o gasto simulado, percentual e valor de  da economia.<br>
+
+* Valores utilizados para cálculo de economia são aproximados e foram obtidos através de pesquisas na internet, os mesmos podem ser alterados.
 
 ## Como executar
 
